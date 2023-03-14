@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/morph/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <section class="main-form">
+      <div class="shadow p-3 mb-5 bg-body rounded div--bienvenida">
+        <h3><strong>FORMULARIO DE DATOS PARAMETRICOS</strong></h3>
+        <h4>Introducir numero de eventos deseados</h4>
+      </div>
+      <div class="form">
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento M: sufra fallas mecanicas. (mínimo 8, maximo 12)</label
+          >
+          <input
+            class="form-control"
+            id="EventM"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="6"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento T: sufra una una infracción de transito. (mínimo 8, máximo 12)</label
+          >
+          <input
+            class="form-control"
+            id="EventT"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="6"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento V: Llegue a acampar a un lugar lleno. (mínimo 8, máximo 12)</label
+          >
+          <input
+            class="form-control"
+            id="EventV"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="6"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento M ∩ T: sufra fallas mecanicas y que tenga una infracción. (mínimo 1, máximo 4)</label
+          >
+          <input
+            class="form-control"
+            id="EventMIT"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="3"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento M ∩ V: sufra fallas mecanicas y que tenga una infracción. (mínimo 1, máximo 4)</label
+          >
+          <input
+            class="form-control"
+            id="EventMIV"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="3"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento T ∩ V: tenga una infracción y llegue a un lugar de acampar lleno. (mínimo 1, máximo 4)</label
+          >
+          <input
+            class="form-control"
+            id="EventTIV"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="3"
+          />
+        </div>
+        <div class="form-label">
+          <label class="form-label mt-4" for="readOnlyInput"
+            >Evento M ∩ V ∩ T: sufra fallas mecanicas, tenga una infracción y llegue a acampar a un lugar lleno. (mínimo 1, máximo 4)</label
+          >
+          <input
+            class="form-control"
+            id="EventMITIV"
+            type="number"
+            placeholder="Numero de eventos..."
+            min="1" 
+            max="3"
+          />
+        </div>
+        <section class="center-cont">
+          <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-primary" id="btnNxt" type="button">
+              Continuar al applet
+            </button>
+          </div>
+        </section>
+    </section>
+    <script src="./js/form.js"></script>
+  </body>
+</html>

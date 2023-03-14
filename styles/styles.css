@@ -1,0 +1,73 @@
+html,
+      body,
+      #container {
+        width: 100%;
+        height: 95vh;
+        margin: 0;
+        padding: 0;
+      }
+      p{
+        text-align: justify;
+      }
+
+      /* Bienvenida.html*/
+
+    .div--bienvenida{
+      width: 50%;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .center-cont{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    /* Index Styles*/
+
+    .multi-grid{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-items: center;
+      justify-content: space-between;
+      justify-items: center;
+    }
+
+    .grid-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 70%;
+      padding: 15px;
+    }
+
+    .inner-res{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 25px;
+    }
+
+    /* Formulario.html */
+    .main-form{
+      padding: 1%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .btn{
+      margin-top: 50px;
+    }
+
