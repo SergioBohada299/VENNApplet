@@ -38,37 +38,37 @@ anychart.onDocumentReady(function () {
 
   let divM = document.getElementById('divM');
   let pM = document.createElement('p');
-  pM.innerHTML = "Numero de eventos M (Encuentro con un oso de montaña):"+"&nbsp;"+Mval;
+  pM.innerHTML = "Número de eventos M (Encuentro con un oso de montaña):"+"&nbsp;"+Mval;
   divM.appendChild(pM);
 
   let divT = document.getElementById('divT');
   let pT = document.createElement('p');
-  pT.innerHTML = "Numero de eventos T (Lesion por trotar):"+"&nbsp;"+Tval;
+  pT.innerHTML = "Número de eventos T (Lesion por trotar):"+"&nbsp;"+Tval;
   divT.appendChild(pT);
 
   let divV = document.getElementById('divV');
   let pV = document.createElement('p');
-  pV.innerHTML = "Numero de eventos V (Perdido en la montaña):"+"&nbsp;"+Vval;
+  pV.innerHTML = "Número de eventos V (Perdido en la montaña):"+"&nbsp;"+Vval;
   divV.appendChild(pV);
 
   let divMIT = document.getElementById('divMIT');
   let pMIT = document.createElement('p');
-  pMIT.innerHTML = "Numero de eventos M ∩ T (Encuentro con oso y lesion por trotar):"+"&nbsp;"+MITval;
+  pMIT.innerHTML = "Número de eventos M ∩ T (Encuentro con oso y lesion por trotar):"+"&nbsp;"+MITval;
   divMIT.appendChild(pMIT);
 
   let divMIV = document.getElementById('divMIV');
   let pMIV = document.createElement('p');
-  pMIV.innerHTML = "Numero de eventos M ∩ V (Encuentro con oso y estar perdido en la montaña):"+"&nbsp;"+MIVval;
+  pMIV.innerHTML = "Número de eventos M ∩ V (Encuentro con oso y estar perdido en la montaña):"+"&nbsp;"+MIVval;
   divMIV.appendChild(pMIV);
 
   let divTIV = document.getElementById('divTIV');
   let pTIV = document.createElement('p');
-  pTIV.innerHTML = "Numero de eventos T ∩ V (Estar perdido y lesion por trotar):"+"&nbsp;"+TIVval;
+  pTIV.innerHTML = "Número de eventos T ∩ V (Estar perdido y lesion por trotar):"+"&nbsp;"+TIVval;
   divTIV.appendChild(pTIV);
 
   let divMITIV = document.getElementById('divMITIV');
   let pMITIV = document.createElement('p');
-  pMITIV.innerHTML = "Numero de eventos M ∩ T ∩ V (Encuentro con oso, lesion por trotar y perdido en la montaña):"+"&nbsp;"+MITIVval;
+  pMITIV.innerHTML = "Número de eventos M ∩ T ∩ V (Encuentro con oso, lesion por trotar y perdido en la montaña):"+"&nbsp;"+MITIVval;
   divMITIV.appendChild(pMITIV);
 
 

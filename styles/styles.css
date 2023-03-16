@@ -1,86 +1,112 @@
 html,
-      body,
-      #container {
-        width: 100%;
-        height: 95vh;
-        margin: 0;
-        padding: 0;
-      }
-      p{
-        text-align: justify;
-      }
+body,
+#container {
+  width: 100%;
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-align: justify;
+}
 
-      /* Bienvenida.html*/
+/* Bienvenida.html*/
 
-    .div--bienvenida{
-      width: 50%;
-      padding: 2%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-    }
+.div--bienvenida {
+  width: 50%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
-    .center-cont{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-    }
+.center-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
-    /* Index Styles*/
+/* Index Styles*/
 
-    .multi-grid{
-      width: 100%;
-      display: grid;
-      grid-template-columns: 50% 50%;
-      align-items: center;
-      justify-content: space-between;
-      justify-items: center;
-    }
+.multi-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
 
-    .grid-cont{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      width: 70%;
-      padding: 15px;
-    }
+.grid-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 70%;
+  padding: 15px;
+}
 
-    .inner-res{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-      font-size: 20px;
-    }
+.inner-res {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
 
-    /* Formulario.html */
-    .main-form{
-      padding: 1%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-    }
+/* Formulario.html */
+.main-form {
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
-    .btn{
-      margin-top: 50px;
-    }
+.btn {
+  margin-top: 50px;
+}
 
-    /* Creditos */
+/* Creditos */
 
-    .creditos--main{
-      width: 100%;
-      height: 90vh;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      font-size: 1.8vw;
-      padding: 3%;
-      
-    }
+.creditos--main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.3vw;
+  padding: 3%;
+}
+
+.teo {
+  margin-top: 1%;
+  padding: 2%;
+  border-style: solid;
+  border-color: rgb(91, 91, 255);
+  border-width: 1px;
+
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.7px);
+  -webkit-backdrop-filter: blur(14.7px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.cred {
+  padding: 2%;
+  border-style: solid;
+  border-color: rgb(91, 91, 255);
+  border-width: 1px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.7px);
+  -webkit-backdrop-filter: blur(14.7px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}

@@ -45,7 +45,7 @@ function saveInfo() {
     guardarLocal("eventMITIV", JSON.stringify(eventMITIV));
     location.replace("./res.html");
   } else {
-    alert("Por favor, introducir un rago valido de datos");
+    alert("Por favor, introducir un rango válido de datos.");
   }
 
   console.log(eventM);
