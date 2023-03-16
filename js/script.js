@@ -1,3 +1,6 @@
+let boton = document.getElementById('btnCnt1');
+boton.addEventListener('click',()=>     location.replace("./creditos.html"));
+
 function getLocal(key){
 
   let local = JSON.parse(localStorage.getItem(key));
@@ -35,37 +38,37 @@ anychart.onDocumentReady(function () {
 
   let divM = document.getElementById('divM');
   let pM = document.createElement('p');
-  pM.innerHTML = "&nbsp;"+Mval;
+  pM.innerHTML = "Numero de eventos M (Encuentro con un oso de montaña):"+"&nbsp;"+Mval;
   divM.appendChild(pM);
 
   let divT = document.getElementById('divT');
   let pT = document.createElement('p');
-  pT.innerHTML = "&nbsp;"+Tval;
+  pT.innerHTML = "Numero de eventos T (Lesion por trotar):"+"&nbsp;"+Tval;
   divT.appendChild(pT);
 
   let divV = document.getElementById('divV');
   let pV = document.createElement('p');
-  pV.innerHTML = "&nbsp;"+Vval;
+  pV.innerHTML = "Numero de eventos V (Perdido en la montaña):"+"&nbsp;"+Vval;
   divV.appendChild(pV);
 
   let divMIT = document.getElementById('divMIT');
   let pMIT = document.createElement('p');
-  pMIT.innerHTML = "&nbsp;"+MITval;
+  pMIT.innerHTML = "Numero de eventos M ∩ T (Encuentro con oso y lesion por trotar):"+"&nbsp;"+MITval;
   divMIT.appendChild(pMIT);
 
   let divMIV = document.getElementById('divMIV');
   let pMIV = document.createElement('p');
-  pMIV.innerHTML = "&nbsp;"+MIVval;
+  pMIV.innerHTML = "Numero de eventos M ∩ V (Encuentro con oso y estar perdido en la montaña):"+"&nbsp;"+MIVval;
   divMIV.appendChild(pMIV);
 
   let divTIV = document.getElementById('divTIV');
   let pTIV = document.createElement('p');
-  pTIV.innerHTML = "&nbsp;"+TIVval;
+  pTIV.innerHTML = "Numero de eventos T ∩ V (Estar perdido y lesion por trotar):"+"&nbsp;"+TIVval;
   divTIV.appendChild(pTIV);
 
   let divMITIV = document.getElementById('divMITIV');
   let pMITIV = document.createElement('p');
-  pMITIV.innerHTML = "&nbsp;"+MITIVval;
+  pMITIV.innerHTML = "Numero de eventos M ∩ T ∩ V (Encuentro con oso, lesion por trotar y perdido en la montaña):"+"&nbsp;"+MITIVval;
   divMITIV.appendChild(pMITIV);
 
 
@@ -113,6 +116,6 @@ anychart.onDocumentReady(function () {
   chart.container("container");
   chart.draw();
   chart.title("Diagrama de eventos");
-  chart.labels().format("{%Name}");
+  chart.labels().format("{%Name}"+" |"+"{%value}"+"|");
   chart.background(null);
 });
